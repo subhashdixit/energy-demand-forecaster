@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "selected_model": "weekly_naive",
+  "source_sha256": "a57cd86bf25c987d30455ddf05c9eb65afd49012e78123f9d707c15bc66307fb",
+  "hourly_rows": 94992,
+  "missing_hourly_targets": 1900,
+  "daily_rows": 3958,
+  "partial_days": 1522,
+  "minimum_observed_hours": 19,
+  "aggregation": "daily mean of observed source values; no target imputation; units undocumented",
+  "first_observation": "2008-03-01",
+  "last_observation": "2018-12-31",
+  "split": {
+    "train": 2374,
+    "validation": 792,
+    "test": 792
+  },
+  "validation_candidates": {
+    "weekly_naive": {
+      "mae": 203.6937071219723,
+      "rmse": 242.1063739979933
+    },
+    "exponential_smoothing": {
+      "mae": 2000.224301397479,
+      "rmse": 2300.05276548501
+    },
+    "prophet": {
+      "mae": 243.1158969810221,
+      "rmse": 291.3778184662336
+    }
+  },
+  "test": {
+    "mae": 295.31058326960806,
+    "rmse": 371.95800219423745
+  },
+  "prophet_interval_width": 0.8,
+  "prophet_uncertainty_samples": 300,
+  "serving": "precomputed historical forecast; no automatic retraining or live feed",
+  "prophet_version": "1.5.0"
+}

@@ -1,0 +1,3 @@
+-r requirements-dev.txt
+prophet==1.5.0
+statsmodels==0.14.4

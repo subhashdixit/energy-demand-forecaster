@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75,<81"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "energy-demand-forecaster"
+version = "1.0.0"
+description = "Historical daily-average energy forecasting with Prophet"
+requires-python = ">=3.10,<3.13"
+dependencies = ["streamlit==1.50.0", "pandas==2.2.3", "numpy==1.26.4"]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+[tool.black]
+line-length = 88
+[tool.pylint.main]
+source-roots = ["src"]
+[tool.pylint.messages_control]
+disable = ["too-few-public-methods", "too-many-locals", "too-many-statements", "too-many-arguments", "too-many-positional-arguments", "duplicate-code", "import-outside-toplevel"]
+[tool.pylint.format]
+max-line-length = 88

@@ -1,10 +1,14 @@
 # Energy Forecast Explorer
 
+**Live application:** [Open Energy Demand Forecaster](https://subhash-energy-forecast.streamlit.app/)
+
 An end-to-end **historical daily-average energy forecasting dashboard** built with Streamlit. Compare a weekly-naive baseline, exponential smoothing and Prophet, inspect later-period errors, explore model-based uncertainty and download forecast horizons.
 
 Heavy fitting runs offline. The deployed interface serves reviewed forecast artifacts, so opening a page does not start Stan or retrain a model.
 
 > Source history ends **31 December 2018**. The dashboard's forecasts are anchored after that historical cutoff; they are not current energy predictions. Source units and renewable-energy composition are undocumented. This is a learning resource, not a live grid-planning service.
+
+![Live evaluation view](docs/images/application.png)
 
 ## What we built and why
 

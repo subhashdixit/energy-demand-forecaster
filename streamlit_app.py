@@ -107,7 +107,8 @@ def main() -> None:
             )
         )
     with tabs[2]:
-        st.markdown("""### From measurements to a forecast
+        st.markdown(
+            """### From measurements to a forecast
 1. Parse and validate unique hourly timestamps.
 2. Aggregate observed values to a daily mean and report coverage.
 3. Keep time order: training, validation, then test.
@@ -124,7 +125,8 @@ and rare events can break its assumptions.
 MAE measures average absolute error in source units. RMSE emphasizes larger
 errors. These are historical holdout measurements, not a service-level
 promise. The interface serves precomputed outputs; Stan fitting runs
-offline, so page loads are quick and reproducible.""")
+offline, so page loads are quick and reproducible."""
+        )
         st.json(report)
 
 

@@ -4,3 +4,5 @@ pyarrow==19.0.1
 pandas==2.2.3
 numpy==1.26.4
 setuptools==80.9.0
+# Prophet training and app installs must agree on this shared dependency.
+python-dateutil==2.9.0.post0

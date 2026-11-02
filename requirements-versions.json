@@ -10,7 +10,7 @@
     },
     {
       "path": "requirements-dev.txt",
-      "sha256": "16ac36559a2bb52e93c2b13f7d86c1871e1ea356933f60e017efe5e81d894964"
+      "sha256": "5b219c3a6c39f607435930658d0b821f411a3aa56c13ceb09bdf5e9ffe9d9fbe"
     },
     {
       "path": "requirements-training.in",
@@ -22,11 +22,11 @@
     },
     {
       "path": "requirements.in",
-      "sha256": "7c956eaa2c988662a3b42b55c32516bf242e2edc40fe95a5f46db339fd879d16"
+      "sha256": "07319409777eb9f0b744863fc4ca75dfc876a9aa4f2842271ab45b3f63a80da6"
     },
     {
       "path": "requirements.txt",
-      "sha256": "edd01acaafea7c23e27bc11b95ccee580c5175421bb3096247aa692445cee520"
+      "sha256": "b9c9377b41fbd983abb2d554c4a556cc4657c1f5078c12edf83483c18c0808b4"
     }
   ]
 }

@@ -1,0 +1,4 @@
+# Maintained direct inputs. Regenerate exact transitive pins with uv 0.13.6.
+-r requirements-dev.in
+prophet==1.5.0
+statsmodels==0.14.4

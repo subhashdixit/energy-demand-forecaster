@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "repository": "energy-demand-forecaster",
+  "recommended_python": "3.11.11",
+  "resolver": "uv==0.13.6",
+  "files": [
+    {
+      "path": "requirements-dev.in",
+      "sha256": "f9c5dfa95578159677f4df7c664e23a5bae51cf8bd8409e96746a3d3a72cd95e"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "16ac36559a2bb52e93c2b13f7d86c1871e1ea356933f60e017efe5e81d894964"
+    },
+    {
+      "path": "requirements-training.in",
+      "sha256": "ff06331053d722eb8544ea864749ae5960127be52424e66a8f4b7252977f6633"
+    },
+    {
+      "path": "requirements-training.txt",
+      "sha256": "8870e5ddb038a37a56647cbfb79be46c766af37ac54a16a96a8c682dff79936c"
+    },
+    {
+      "path": "requirements.in",
+      "sha256": "7c956eaa2c988662a3b42b55c32516bf242e2edc40fe95a5f46db339fd879d16"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "edd01acaafea7c23e27bc11b95ccee580c5175421bb3096247aa692445cee520"
+    }
+  ]
+}

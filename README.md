@@ -2,7 +2,7 @@
 
 ## 1. Project overview
 
-Compare daily-average energy forecasts, inspect held-out errors, and download historical forecast horizons in a Streamlit dashboard.
+Forecast daily average energy readings from historical hourly observations. The repository prepares and evaluates the forecasts offline, and the Streamlit dashboard lets users inspect historical patterns, compare models, and download forecast horizons.
 
 [Live demo](https://subhash-energy-forecast.streamlit.app/) · [Source repository](https://github.com/subhashdixit/energy-demand-forecaster)
 
@@ -12,7 +12,17 @@ Compare daily-average energy forecasts, inspect held-out errors, and download hi
 
 ## 2. Motivation and problem statement
 
-Hourly challenge data and an undated forecast export make it hard to tell what was observed, how missing hours affect the daily signal, and whether a complex forecast beats a weekly baseline. This project builds a dated daily series, reports its coverage, and compares models on later observations before publishing forecast artifacts.
+### Objective
+
+Estimate daily average energy readings after the last recorded date and quantify errors on a later historical period. The maintained project uses daily means derived from the original hourly challenge data.
+
+### Problem statement
+
+Given dated hourly readings with gaps, build a daily series, record how many hours each day represents, and forecast future daily averages. The source units and renewable-energy composition are undocumented. The released forecast starts after the historical cutoff of 31 December 2018.
+
+### Motivation
+
+Energy forecasting is useful for anticipating changes in usage and planning capacity. Before using a model for that purpose, an analyst needs to know how missing observations affect the series and whether a complex method beats a simple weekly pattern. The repository makes both checks visible through chronological evaluation and downloadable results.
 
 ## 3. Solution and scope
 
